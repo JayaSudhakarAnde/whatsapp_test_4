@@ -23,3 +23,7 @@ filterFile = "filter.rgf"
 
 [redgateCompare.mysql.options.ignores]
 ignoreNewlinesInTextObjects = "off"
+
+[environments.target1]
+url = "jdbc:mysql://192.168.7.38:3306"
+schemas = [ "test_whatsapp" ]
