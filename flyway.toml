@@ -2,6 +2,10 @@ databaseType = "MySql"
 id = "e00a889c-e4ca-4310-bac3-a38eaaf681e0"
 name = "flyway_test_4"
 
+[environments.target1]
+schemas = [ "test_whatsapp" ]
+url = "jdbc:mysql://192.168.7.38:3306"
+
 [flyway]
 callbackLocations = [ "filesystem:callbacks" ]
 locations = [ "filesystem:migrations" ]
@@ -23,7 +27,3 @@ filterFile = "filter.rgf"
 
 [redgateCompare.mysql.options.ignores]
 ignoreNewlinesInTextObjects = "off"
-
-[environments.target1]
-url = "jdbc:mysql://192.168.7.38:3306"
-schemas = [ "test_whatsapp" ]
