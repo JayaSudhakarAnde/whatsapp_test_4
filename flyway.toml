@@ -1,6 +1,6 @@
 databaseType = "MySql"
 id = "e00a889c-e4ca-4310-bac3-a38eaaf681e0"
-name = "flyway_test_4"
+name = "test_whatasapp"
 
 [environments.target1]
 schemas = [ "test_whatsapp" ]
