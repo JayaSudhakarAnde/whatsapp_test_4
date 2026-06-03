@@ -1,1 +1,1 @@
-alter table tbl_test_table add created_on datetime;
+alter table tbl_employee add created_on datetime;
